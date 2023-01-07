@@ -4,7 +4,7 @@ Created on Wed Dec 28 19:15:38 2022
 @author: lillo
 """
 
-import stochastic_backend
+from gillespie import stochastic_backend
 
 class gillespie_ssa():
     
