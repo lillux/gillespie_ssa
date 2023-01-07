@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan  7 11:44:53 2023
-
-@author: lillo
-"""
 from setuptools import setup, find_packages
 
 setup(name = 'gillespie_ssa',
