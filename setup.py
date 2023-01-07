@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name = 'gillespie_ssa',
+setup(name = 'gillespie',
      version = '0.1',
      description = 'Gillespie Stochastic Simulation Algorithm Library',
      url = 'https://github.com/lillux/gillespie_ssa',
