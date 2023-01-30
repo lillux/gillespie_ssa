@@ -8,14 +8,16 @@
 ```{include} ../../README.md
 :relative-images:
 ```
+
 ```{warning}
 This library is under heavy development!
 ```
-
-
+% you can create additional .md file in /source, and the add them in toctree (plain name, no extension)
 ```{toctree}
 :caption: 'Contents:'
 :maxdepth: 2
+
+notebook/gillespie_link
 ```
 
 # Indices and tables
