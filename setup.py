@@ -8,7 +8,7 @@ setup(name = 'gillespie',
      author_email = 'calogero.carlino28@gmail.com',
      license = 'GPLv3',
      zip_safe=False,
-     install_requires=['numpy>=1.18.1',
+     install_requires=['numpy<=1.21', #1.21 is the latest compatible for readthedocs
                        'matplotlib<=3.5'], #3.5 is a test to build with readtedocs
                        
       classifiers=[
