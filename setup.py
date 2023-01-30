@@ -9,7 +9,7 @@ setup(name = 'gillespie',
      license = 'GPLv3',
      zip_safe=False,
      install_requires=['numpy>=1.18.1',
-                       'matplotlib'],
+                       'matplotlib<=3.5'], #3.5 is a test to build with readtedocs
                        
       classifiers=[
           'Development Status :: 3 - Alpha',
