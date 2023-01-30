@@ -7,6 +7,7 @@ Submodules
 .. toctree::
    :maxdepth: 4
 
+   README
    gillespie.gillespie
    gillespie.stochastic_backend
 
