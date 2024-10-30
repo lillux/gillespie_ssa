@@ -9,7 +9,8 @@ setup(name = 'gillespie',
      license = 'GPLv3',
      zip_safe=False,
      install_requires=['numpy>=1.18.1',
-                       'matplotlib'],
+                       'matplotlib',
+                       'joblib'],
                        
       classifiers=[
           'Development Status :: 3 - Alpha',
