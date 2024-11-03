@@ -16,8 +16,8 @@ class gillespie_dynamic():
     
     def __init__(self,
                  reagent_quantity: List[int],
-                 state_change_vectors: Dict[str:List[List[int]]],
-                 combinatorics: Dict[str:List[List[Callable[[List[int]], int]]]],
+                 state_change_vectors: Dict[str,List[List[int]]],
+                 combinatorics: Dict[str,List[List[Callable[[List[int]], int]]]],
                  max_time: float = None,
                  max_iteration: int = None,
                  stop_condition: str = 'time',
@@ -25,7 +25,7 @@ class gillespie_dynamic():
                  rescale: int = None,
                  Ni: int = None,
                  oscillate: bool = False,
-                 oscillation_interval: Dict[str:float] = None,
+                 oscillation_interval: Dict[str,float] = None,
                  start_with: str = None):
         '''
         Initialize gillespie stochastic simulation algorithm class
